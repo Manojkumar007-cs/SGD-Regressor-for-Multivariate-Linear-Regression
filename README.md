@@ -8,10 +8,10 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import the required packages.
+2.Import the dataset to operate on.
+3.Split the dataset.
+4.Predict the required output.
 
 ## Program:
 ```
@@ -20,7 +20,7 @@ Program to implement the multivariate linear regression model for predicting the
 Developed by:manojkumar 
 RegisterNumber:24900281  
 */
-```
+
 import numpy as np 
 from sklearn.datasets import fetch_california_housing 
 from sklearn.linear_model import SGDRegressor 
@@ -48,6 +48,8 @@ print(y_pred)
 mse = mean_squared_error(y_test,y_pred) 
 print("Mean Squared Error:",mse) 
 print("\nPredictions:\n",y_pred[:5])
+```
+
 ## Output:
 ![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
 ![experiment4](https://github.com/user-attachments/assets/40401cbc-7d24-461b-b6f6-99cecf89aec9)
